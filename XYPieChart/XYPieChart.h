@@ -67,5 +67,6 @@
 
 - (void)setSliceSelectedAtIndex:(NSInteger)index;
 - (void)setSliceDeselectedAtIndex:(NSInteger)index;
++ (CGSize)ios67TextSize:(NSString *)text withFont:(UIFont *)font;
 
 @end;
